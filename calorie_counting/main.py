@@ -1,22 +1,3 @@
-# with open("input.txt") as f:
-#     lines = f.read()
-#     split = str.split(lines, "\n\n")
-    
-#     highest_cal = 0
-#     for i in split:
-#         total = 0
-#         items = str.split(i, "\n")
-#         print(items)
-#         for x in items:
-#             total += int(x)
-
-#         print("total: ", total)
-
-#         if total > highest_cal:
-#             highest_cal = total
-
-#     print("highest cal: ", highest_cal)
-
 class Elf:
     def __init__(self, total, cals):
         self.total = total
