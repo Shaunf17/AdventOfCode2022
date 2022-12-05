@@ -1,5 +1,4 @@
-from string import ascii_lowercase
-from string import ascii_uppercase
+from string import ascii_lowercase, ascii_uppercase
 
 def get_priority():
     priority = {}
